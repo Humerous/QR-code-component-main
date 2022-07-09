@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-View](https://github.com/Humerous/Product-review-card-component/blob/main/Desktop-view.jpg)
+![Desktop-View](https://github.com/Humerous/QR-code-component-main/blob/main/Desktop%20View.jpg)
+![Mobile-View]((https://github.com/Humerous/QR-code-component-main/blob/main/Mobile%20View.jpg)
 
-![Mobile-View](https://github.com/Humerous/Product-review-card-component/blob/main/Mobile-view.jpg)
 
 ### Links
 
