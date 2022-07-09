@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+
+- Background-colour : Grayish-blue: hsl(220, 15%, 55%)
+- main-container colour: White: hsl(0, 0%, 100%)
+- Paragraph text : Light-gray: hsl(212, 45%, 89%)
+- H3 heading : Dark-blue: hsl(218, 44%, 22%)
+
+*/
+
+/* GENERAL STYLES BELOW */
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  width: 300px;
+  margin: 100px auto;
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+
+  padding: 15px 15px 10px 15px;
+}
+
+/* COMPONENT STYLES BELOW */
+
+.main--container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+.container--heading {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  border-radius: 12px;
+  padding: 0 15px 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container--content {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  text-align: center;
+  border-radius: 12px;
+  padding: 0 20px 0 20px;
+  padding-bottom: 30px;
+}
+
+/* FOOTER */
+.attribution {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
